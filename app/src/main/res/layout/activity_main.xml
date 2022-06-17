@@ -1,0 +1,163 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_bg">
+
+
+
+  <LinearLayout
+      android:id="@+id/aba2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:text="HOME"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/profileAccentColor"/>
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_below="@+id/aba2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:text="BUTTERFLIES  OF  SRI  LANKA"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/blackTextColor"/>
+
+
+  </LinearLayout>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <ImageView
+        android:paddingTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_back">
+    </ImageView>
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true">
+    <ImageButton
+        android:id="@+id/about_us"
+        android:paddingEnd="10dp"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fully_transp"
+        android:src="@drawable/ic_baseline_info_24">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/notification"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fully_transp"
+        android:src="@drawable/ic_baseline_notifications_24"
+        android:padding="20dp">
+    </ImageButton>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_alignParentBottom="true"
+      android:id="@+id/aba1"
+      android:paddingEnd="8dp"
+      android:paddingStart="8dp"
+      android:paddingTop="8dp"
+      android:paddingBottom="70dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/bala"
+        android:radius="10dp">
+
+      <Button
+          android:id="@+id/btnSimpleTabs"
+          android:layout_gravity="center_horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/bala"
+          android:text="All Butterflies"
+          android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bala"
+        android:padding="5dp"
+        android:radius="10dp">
+
+      <Button
+          android:id="@+id/btnSimpleTabs2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:background="@drawable/bala"
+          android:text="Families"
+          android:textSize="15dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bala"
+        android:padding="5dp"
+        android:radius="10dp">
+
+      <Button
+          android:id="@+id/btnSimpleTabs3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:background="@drawable/bala"
+          android:text="CHECK LIST"
+          android:textSize="15dp" />
+
+    </RelativeLayout>
+
+  </LinearLayout>
+
+
+</RelativeLayout>

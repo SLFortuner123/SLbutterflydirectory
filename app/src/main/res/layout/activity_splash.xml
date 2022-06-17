@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash"
+    android:background="@drawable/bg_splash_gradient"
+    android:theme="@android:style/Theme.NoTitleBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.0v"
+            android:textSize="10sp"
+            android:textColor="#fff"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="BUTTERFLY
+            DIRECTORY"
+            android:gravity="center"
+            android:paddingBottom="55dp"
+            android:textColor="@android:color/white"
+            android:textSize="45sp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:paddingBottom="5dp"
+            app:srcCompat="@drawable/final_splash_logo2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="  SRI LANKA  "
+            android:textColor="@android:color/white"
+            android:paddingBottom="30dp"
+            android:textSize="23sp"
+            android:textStyle="normal"
+            android:shadowColor="#fff"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            />
+
+        <ProgressBar
+            android:id="@+id/splashProgress"
+            style="?android:attr/progressBarStyle"
+            android:paddingBottom="20dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="by SLFORTUNER"
+            android:textSize="10sp"
+            android:textColor="#fff"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

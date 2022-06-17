@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.slfortuner.slbutterflydirectory">
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m"
+        android:fullBackupContent="true">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6648962237679921~9246415387"/>
+
+
+        <service android:name=".MyFirebaseMessagingServices"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/white" />
+
+        <activity android:name=".Firebase_Notification" />
+        <activity android:name=".InfoTab" />
+        <activity
+            android:name=".Firebase"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".MapsActivity"
+            android:parentActivityName=".Firebase"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".ViewListContents"
+            android:launchMode="singleTask"
+            android:parentActivityName=".Firebase"/>
+        <activity android:name=".Fam6" />
+        <activity android:name=".Fam5" />
+        <activity android:name=".Fam4" />
+        <activity android:name=".Fam3" />
+        <activity android:name=".Fam2" />
+        <activity android:name=".Fam1" />
+        <activity android:name=".Families" />
+        <activity
+            android:name=".Splash"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.SplashTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity2" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.Aberrant_Bush_Blue"
+            android:label="Aberrant Bush Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".ui1.African_Babul_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u3.African_Marbled_Skipper"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u4.Alida_Angle"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u5.Angled_Castor"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u6.Angled_Pierrot"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u7.Apefly"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u8.Autum_Leaf"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u9.Awl_King"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u10.Banded_Blue_Pierrot"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u11.Banded_Peacock"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u12.Banded_Red_Eye"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u13.Baron"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u14.Baronet"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u15.Beak"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u16.Black_Angle"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u17.Black_Prince"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u18.Black_Rajah"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u19.Blank_Swift"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u20.Blue_Admiral"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u21.Blue_Glassy_Tiger"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u22.Blue_Mormon"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u23.Blue_Onyx"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u24.Blue_Pansy"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u25.Blue_Tiger"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u26.Branded_Orange_Awlet"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u27.Bright_Babul_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u28.Brown_Awl"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u29.Brown_King_Crow"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u30.Brown_Onyx"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u31.Bush_Hopper"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u32.Buttlers_Spotted_Pierrot"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u33.Centaur_Oakblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u34.Chestnut_Bob"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u35.Chestnut_Streaked_Sailor"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u36.Chocolate_Albatross"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u37.Chocolate_Soldier"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u38.Clipper"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u39.Club_Beak"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u40.Commander"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u41.Common_Acacia_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u42.Common_Albatross"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u43.Common_Banded_Awl"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u44.Common_Banded_Demon"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u45.Common_Bluebottle"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u46.Common_Bushbrown"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u47.Common_Castor"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u48.Common_Cerulean"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u49.Common_Crow"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u50.Common_Dart"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u51.Common_Dartlet"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u52.Common_Evening_Brown"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u53.Common_Grass_Dart"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u54.Common_Grass_Yellow"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u55.Common_Guava_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u56.Common_Gull"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u57.Common_Hedge_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u58.Common_Imperial"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u59.Common_Jay"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u60.Common_Lascar"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u61.Common_Leopard"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u62.Common_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u63.Common_Mormon"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u64.Common_Palmfly"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u65.Common_Pierrot"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u66.Common_Red_Eye"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u67.Common_Rose"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u68.Common_Sailor"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u69.Common_Shot_Silverline"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u70.Common_Silverline"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u71.Common_Small_Flat"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u72.Common_Snow_Flat"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u73.Common_Tiger"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u74.Common_Tinsel"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u75.Common_Treebrown"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u76.Conjoined_Swift"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u77.Cornelian"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u78.Crimson_Rose"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u79.Crimson_Tip"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u80.Cruiser"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u81.Danaid_Eggfly"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u82.Dark_Blue_Tiger"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u83.Dark_Cerulean"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u84.Dark_Evening_Brown"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u85.Dark_Grass_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u86.Dark_Palm_Dart"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u87.Dark_Six_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u88.Dark_Wanderer"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u89.Dark_Brand_Bushbrown"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u90.Dingy_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u91.Double_Branded_Crow"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u92.Fivebar_Swordtail"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u93.Forget_me_not"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u94.Gaudy_Baron"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u95.Giant_Red_Eye"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u96.Gladeye_Bushbrown"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u97.Glassy_Tiger"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u98.Golden_Angle"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u99.Gram_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u100.Grass_Demon"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u101.Grass_Jewel"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u102.Great_Crow"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u103.Great_Eggfly"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u104.Great_Orange_Tip"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u105.Grey_Pansy"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u106.Grizzled_Skipper"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u107.Hampsons_Hedge_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u108.Indian_Sunbeam"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u109.Indigo_Flash"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u110.Jezebel"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u111.Joker"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u112.Lace_Wing"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u113.Large_Branded_Swift"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u114.Large_Four_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u115.Large_Guava_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u116.Large_Oakblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u117.Large_Salmon_Arab"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u118.Lemon_Emigrant"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u119.Lemon_Pansy"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u120.Lesser_Grass_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u121.Lesser_Gull"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u122.Lime_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u123.Lime_Butterfly"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u124.Little_Branded_Swift"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u125.Little_Orange_Tip"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u126.Long_Banded_Silverline"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u127.Malabar_Flash"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u128.Malayan"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u129.Medus_Brown"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u130.Metallic_Cerulean"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u131.Mime"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u132.Monkey_Puzzle"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u133.Mottled_Emigrant"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u134.Nawab"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u135.Nilgiri_Tit"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u136.Opaque_Six_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u137.Orange_Migrant"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u138.Orange_Tailed_Awl"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u139.Oriental_Common_Awl"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u140.Oriental_Cupid"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u141.Oriental_Palm_Bob"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u142.Painted_Lady"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u143.Painted_Sawtooth"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u144.Pale_Four_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u145.Pale_Palm_Dart"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u146.Pallid_Dart"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u147.Pea_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u148.Peacock_Pansy"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u149.Peacock_Royal"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u150.Philippine_Swift"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u151.Pioneer"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u152.Plain_Hedge_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u153.Plain_Orange_Tip"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u154.Plain_Puffin"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u155.Plain_Tiger"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u156.Plains_Blue_Royal"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u157.Plains_Cupid"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u158.Plane"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u159.Plum_Judy"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u160.Plumbeous_Silverline"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u161.Pointed_Ciliate_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u162.Pointed_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u163.Psyche"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u164.Purple_Leaf_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u165.Quaker"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u166.Red_Admiral"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u167.Red_Flash"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u168.Red_Helen"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u169.Red_Pierrot"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u170.Redspot"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u171.Redspot_Duke"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u172.Restricted_Demon"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u173.Rounded_Palm_Red_Eye"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u174.Rounded_Six_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u175.Rustic"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u176.Scarce_Shot_Silverline"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u177.Silver_Forget_Me_Not"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u178.Silver_Streak_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u179.Slate_Flash"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u180.Small_Branded_Swift"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u181.Small_Cupid"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u182.Small_Grass_Yellow"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u183.Small_Leopard"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u184.Small_Palm_Bob"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u185.Small_Salmon_Arab"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u186.Smallest_Swift"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u187.Southern_Duffer"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u188.Spot_Swordtail"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u189.Spotless_Grass_Yellow"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u190.Sri_Lankan_Birdwing"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u191.Sri_Lankan_Black_Flat"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u192.Sri_Lankan_Blue_Oak_Leaf"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u193.Sri_Lankan_Cerulean"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u194.Sri_Lankan_Cingalese_Bushbrown"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u195.Sri_Lankan_Clouded_Silverline"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u196.Sri_Lankan_Dart"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u197.Sri_Lankan_Decorated_Ace"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u198.Sri_Lankan_Forester"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u199.Sri_Lankan_Greens_Silverline"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u200.Sri_Lankan_Hedge_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u201.Sri_Lankan_Hedge_Hopper"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u202.Sri_Lankan_Highland_Ace"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u203.Sri_Lankan_Indigo_Royal"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u204.Sri_Lankan_Jewel_Four_Ring"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u205.Sri_Lankan_Lesser_Albatross"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u206.Sri_Lankan_Lowland_Ace"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u207.Sri_Lankan_Milky_Cerulean"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u208.Sri_Lankan_One_Spot_Grass_Yellow"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u209.Sri_Lankan_Ormistons_Oakblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u210.Sri_Lankan_Paint_Brush_Swift"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u211.Sri_Lankan_Pale_Six_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u212.Sri_Lankan_Palmfly"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u213.Sri_Lankan_Pied_Flat"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u214.Sri_Lankan_Rose"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u215.Sri_Lankan_Singalese_Hedge_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u216.Sri_Lankan_Tamil_Bushbrown"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u217.Sri_Lankan_Tiger"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u218.Sri_Lankan_Tree_Nymph"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u219.Sri_Lankan_Treebrown"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u220.Sri_Lankan_Woodhouses_Four_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u221.Striped_Albatross"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u222.Striped_Pierrot"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u223.Shiva_Sunbeam"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u224.Tail_Less_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u225.Tailed_Jay"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u226.Tamil_Oakblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u227.Tamil_Treebrown"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u228.Tamil_Yeoman"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u229.Tawny_Coster"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u230.Tawny_Rajah"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u231.Three_spot_Grass_Yellow"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u232.Tiny_Grass_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u233.Transparent_Six_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u234.Tree_Flitter"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u235.Tropical_Fritillary"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u236.Wallaces_Swift"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u237.Water_Snow_Flat"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u238.White_Banded_Awl"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u239.White_Four_ring"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u240.White_Hedge_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u241.White_Orange_Tip"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u242.White_Royal"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u243.White_tipped_Lineblue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u244.Yamfly"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u245.Yellow_Orange_Tip"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u246.Yellow_Palm_Dart"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u247.Yellow_Pansy"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".u248.Zebra_Blue"
+            android:label="African Babul Blue"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/Theme.Design.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>

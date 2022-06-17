@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:background="@drawable/background_bg">
+    
+
+
+    <LinearLayout
+        android:background="@drawable/background_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_below="@+id/editTextTextName"
+        android:id="@+id/lin0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <Button
+                android:background="@drawable/balatransp"
+                android:padding="8dp"
+                android:id="@+id/fam1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/fam1_test"
+                android:textSize="12sp"
+                android:text="\nHesperiidae \n(The Skippers)"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <Button
+                android:background="@drawable/balatransp"
+                android:padding="10dp"
+                android:id="@+id/fam2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/fam2_test"
+                android:textSize="12sp"
+                android:text="\nLycaenidae \n(The Blues)"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_below="@+id/editTextTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <Button
+                android:background="@drawable/balatransp"
+                android:padding="10dp"
+                android:id="@+id/fam3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/fam3_test"
+                android:textSize="12sp"
+                android:text="\nNymphalidae \n(The Brush-foots)"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/fam4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/balatransp"
+                android:drawableTop="@drawable/fam4_test"
+                android:padding="10dp"
+                android:text="\nPapilionidae  \n(the swallowtalls)"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_below="@+id/editTextTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/fam5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/balatransp"
+                android:drawableTop="@drawable/fam5_test"
+                android:padding="10dp"
+                android:text="\npieridae\n(The whites, yellows)"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp">
+
+            <Button
+                android:background="@drawable/balatransp"
+                android:padding="10dp"
+                android:id="@+id/fam6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/fam6_test"
+                android:textSize="12sp"
+                android:text="\nRiodinidae \n(The Metalmarks)"
+                />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewf"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8659678237679921/3479332706">
+
+        </com.google.android.gms.ads.AdView>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

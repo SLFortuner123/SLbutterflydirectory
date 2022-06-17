@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="250dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+///////////////////////////////////////////COMMON NAME//////////////////////////////
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:background="@drawable/bala"
+            android:radius="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Common Name"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Common Leopard"
+                android:layout_marginTop="30dp"
+                android:textColor="#52595D"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+/////////////////////////////////////////////////SCIENTIFIC NAME/////////////////////
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:background="@drawable/bala"
+            android:radius="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scientific Name"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phalanta phalantha phalantha    "
+                android:layout_marginTop="30dp"
+                android:textColor="#52595D"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+        /////////////////////////////////////SINHALA NAME///////////////////////////
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:background="@drawable/bala"
+            android:radius="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sinhala Name"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="සුලබ කොටිතියා"
+                android:layout_marginTop="30dp"
+                android:textColor="#52595D"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+        /////////////////////////////////////////////Family//////////////////////
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:background="@drawable/bala"
+            android:radius="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Family"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nymphalidae "
+                android:layout_marginTop="30dp"
+                android:textColor="#52595D"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+
+
+////////////////////////////////////Larval Food Plant//////////////////////////
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:background="@drawable/bala"
+            android:radius="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Larval Food Plant"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dovyalis hebecarpa | කැටඹිල්ල, Flacourtia indica | උගුරැස්ස, කටු ලොවි"
+                android:layout_marginTop="30dp"
+                android:textColor="#52595D"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+
+
+
+/////////////////////////////////////photo credits//////////////////////////////
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:background="@drawable/bala"
+            android:radius="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Picture Credits"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D.Eranda Nipunika Mandawala, Adrian Hoskins"
+                android:layout_marginTop="30dp"
+                android:textColor="#52595D"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>

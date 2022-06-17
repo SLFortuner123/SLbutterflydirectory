@@ -1,0 +1,20 @@
+<resources>
+    <array name="Locations">
+        <item>maharagama</item>
+        <item>maharagamsdasa</item>
+        <item>madasharagama</item>
+    </array>
+    <string name="home">Home</string>
+
+    <string name="app_name">SL Butterfly Directory</string>
+
+    <string name="google_maps_api">AIzaSyDmuaKooShJrR4-XpSVEpOVHZ_O11rsGf0</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="rate_dialog_title">Thank You!</string>
+    <string name="rate_dialog_message">Please help us out - Your Play Store Reviews make a difference!</string>
+    <string name="rate_dialog_ok">RATE NOW</string>
+    <string name="rate_dialog_cancel">REMIND ME LATER</string>
+    <string name="rate_dialog_no">NO, THANKS</string>
+
+</resources>
